@@ -378,7 +378,7 @@ align-items: center;
               bottom: 0;
               left: 0;
                
-              padding-top: px;
+              
               text-align: center;
               font-style: normal;
               font-weight: bold;
@@ -882,9 +882,9 @@ align-items: center;
              cursor: pointer;
              
              }
-          }
+          
            
-        .modal-close {
+          .modal-close{ 
 
             fill: black;
              width: 18px;
