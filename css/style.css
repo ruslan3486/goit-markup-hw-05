@@ -711,7 +711,9 @@ align-items: center;
                  border-radius: 4px;
                  
                   border: 1px solid #F5F4FA;
-                 transition: 250ms var(--timing-function);
+                 transition: background-color 250ms var(--timing-function),
+                 color 250ms var(--timing-function),
+                 box-shadow 250ms var(--timing-function);
 
                 
                 }   
