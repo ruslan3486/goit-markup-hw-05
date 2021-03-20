@@ -76,7 +76,7 @@ img {
     margin: 0 auto;
    
     border: 1px solid #ececec;
-    border-top: none;
+   
 }   
 
 .header .container{
@@ -541,14 +541,10 @@ align-items: center;
        
    }
 
-    .new-icon-client,
-    .new-icon-link-list{
-        transition: border var(--transition-duration) var(--timing-function),
-        fill var(--transition-duration) var(--timing-function);
-    }
+    
     .new-icon-client{
        
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     fill: var(--fill-icon);
@@ -556,14 +552,14 @@ align-items: center;
     height: 90px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    
+    transition: border var(--transition-duration) var(--timing-function),
+    fill var(--transition-duration) var(--timing-function);
       
     }
     /*Ховер и фокус для иконок в секции "Постоянные клиенты"*/
     .new-icon-client:hover,
-    .new-icon-client:focus,
-    .new-icon-link-list:hover,
-    .new-icon-link-list:focus
+    .new-icon-client:focus
+    
     {
     border: 1px solid #2196F3;
      fill: var(--accent-color);
@@ -656,9 +652,8 @@ align-items: center;
            /*Ховер и фокус для иконок в подвале страницы*/
 
     .about-icon-footer:hover,
-    .about-icon-footer:focus,
-    .about-icon-link:hover,
-    .about-icon-link:focus {
+    .about-icon-footer:focus
+     {
     background-color: var(--accent-color);
             }
     .about-icon-footer:hover
